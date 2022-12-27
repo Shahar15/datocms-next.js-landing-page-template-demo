@@ -75,6 +75,8 @@ export async function getStaticProps({ params, preview = false }) {
                         __typename
                         id
                         title
+                        hello
+                        dateservice
                         ctaLink
                         text
                         image {
