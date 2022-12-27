@@ -27,7 +27,7 @@ export default function Service({ service }) {
       <Col md={6}>
         <div className="mb-4 text-left">
           <h5 className="text-dark font-weight-normal mb-3 pt-3">{service.title}</h5>
-          <h5 className="text-dark font-weight-normal mb-3 pt-3">{service.date}</h5>
+          <h5 className="text-dark font-weight-normal mb-3 pt-3">{service.dateservice}</h5>
           <p className="text-muted mb-3 f-15">{service.text}</p>
           <Link href={service.ctaLink}>
             <a className="f-16 text-warning">
