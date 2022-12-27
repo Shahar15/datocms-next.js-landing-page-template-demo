@@ -14,6 +14,7 @@ export default function Service({ service }) {
           <h5 className="text-dark font-weight-normal mb-3 pt-3">{service.title}</h5>
           <h5 className="text-dark font-weight-normal mb-3 pt-3">{service.dateservice}</h5>
           <h5 className="text-dark font-weight-normal mb-3 pt-3 hello-field">{service.hello}</h5>
+          <h5 className="text-dark font-weight-normal mb-3 pt-3 hello-field">{service.lior}</h5>
           <p className="text-muted mb-3 f-15">{service.text}</p>
           <Link href={service.ctaLink}>
             <a className="f-16 text-warning">
@@ -30,6 +31,7 @@ export default function Service({ service }) {
           <h5 className="text-dark font-weight-normal mb-3 pt-3">{service.title}</h5>
           <h5 className="text-dark font-weight-normal mb-3 pt-3">{service.dateservice}</h5>
           <h5 className="text-dark font-weight-normal mb-3 pt-3 hello-field">{service.hello}</h5>
+            <h5 className="text-dark font-weight-normal mb-3 pt-3 hello-field">{service.lior}</h5>
           <p className="text-muted mb-3 f-15">{service.text}</p>
           <Link href={service.ctaLink}>
             <a className="f-16 text-warning">

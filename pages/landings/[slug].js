@@ -76,6 +76,7 @@ export async function getStaticProps({ params, preview = false }) {
                         id
                         title
                         hello
+                        lior
                         dateservice
                         ctaLink
                         text
